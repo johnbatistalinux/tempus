@@ -1,0 +1,17 @@
+# Rust compilation artifacts
+target/
+**/*.rs.bk
+*.bk
+
+# Editor and OS files
+*~
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local configuration and runtime data
+last_city.json
+.tempus/

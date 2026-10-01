@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Tempus
+GenericName=Previsão do Tempo
+Comment=Previsão do tempo moderna no terminal
+Exec=tempus
+Icon=weather-few-clouds
+Terminal=true
+Type=Application
+Categories=Utility;Clock;
+Keywords=weather;tempo;clima;previsao;tui;meteo;tempus;
+StartupNotify=false

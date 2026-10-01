@@ -1,0 +1,23 @@
+[package]
+name = "tempus"
+version = "0.1.0"
+edition = "2021"
+description = "Modern, ultra-fast terminal weather app with 14-day forecasts and 24h hourly curve"
+authors = ["johnbatistalinux <johnjuniorjj321@gmail.com>"]
+license = "MIT"
+repository = "https://github.com/johnbatistalinux/tempus"
+homepage = "https://github.com/johnbatistalinux/tempus"
+readme = "README.md"
+keywords = ["weather", "tui", "ratatui", "open-meteo", "terminal"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+ratatui = "0.30"
+crossterm = "0.29"
+tokio = { version = "1", features = ["full"] }
+reqwest = { version = "0.12", features = ["json"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+anyhow = "1"
+chrono = { version = "0.4", features = ["serde"] }
+unicode-width = "0.2"
